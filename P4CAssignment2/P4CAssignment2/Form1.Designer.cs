@@ -335,6 +335,7 @@
             this.btn_star.TabIndex = 18;
             this.btn_star.Text = "* - _ ";
             this.btn_star.UseVisualStyleBackColor = false;
+            this.btn_star.Click += new System.EventHandler(this.btn_star_Click);
             // 
             // btn_hash
             // 
