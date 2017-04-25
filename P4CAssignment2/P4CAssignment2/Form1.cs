@@ -220,5 +220,18 @@ namespace P4CAssignment2
             //turns the timer back on
             lettertimer.Enabled = true;
         }
+
+        private void btn_mode_Click(object sender, EventArgs e)
+        {
+          //Changes mode status
+            if (btn_multipress.Text == "Multi-Press")
+            {
+                btn_multipress.Text = "Prediction";
+            }
+            else
+            {
+                btn_multipress.Text = "Multi-Press"; 
+            }
+        }
     }
 }
