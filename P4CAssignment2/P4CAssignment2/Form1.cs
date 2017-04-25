@@ -66,7 +66,21 @@ namespace P4CAssignment2
 
         private void btn_button9_Click(object sender, EventArgs e)
         {
+            if (firsttime == true)
+            {
+                //Clears the global list box 
+                lb_global.Items.Clear();
 
+                //Adds contents of list box button 9 into the global listbox
+                lb_global.Items.AddRange(lb_button9.Items);
+            }
+
+            // Turns timer off
+            lettertimer.Enabled = false;
+            //Adds one onto the letter number variabe
+            letternumber++;
+            //turns the timer back on
+            lettertimer.Enabled = true; 
         }
 
         private void button1_Click(object sender, EventArgs e)
