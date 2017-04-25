@@ -160,6 +160,7 @@
             this.btn_button3.TabIndex = 8;
             this.btn_button3.Text = " 3 WXYZ";
             this.btn_button3.UseVisualStyleBackColor = false;
+            this.btn_button3.Click += new System.EventHandler(this.btn_button3_Click);
             // 
             // lb_button7
             // 
