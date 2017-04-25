@@ -50,12 +50,23 @@
             this.btn_hash = new System.Windows.Forms.Button();
             this.listBox9 = new System.Windows.Forms.ListBox();
             this.listBox10 = new System.Windows.Forms.ListBox();
+            this.txt_box1 = new System.Windows.Forms.TextBox();
+            this.btn_space = new System.Windows.Forms.Button();
+            this.btn_mode = new System.Windows.Forms.Button();
+            this.btn_next = new System.Windows.Forms.Button();
+            this.btn_previous = new System.Windows.Forms.Button();
+            this.btn_send_predictive = new System.Windows.Forms.Button();
+            this.btn_blank1 = new System.Windows.Forms.Button();
+            this.btn_blank2 = new System.Windows.Forms.Button();
+            this.btn_enter = new System.Windows.Forms.Button();
+            this.txtb_multipress = new System.Windows.Forms.TextBox();
+            this.btn_multipress = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_button7
             // 
             this.btn_button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button7.Location = new System.Drawing.Point(114, 144);
+            this.btn_button7.Location = new System.Drawing.Point(114, 236);
             this.btn_button7.Name = "btn_button7";
             this.btn_button7.Size = new System.Drawing.Size(47, 40);
             this.btn_button7.TabIndex = 0;
@@ -66,7 +77,7 @@
             // btn_button8
             // 
             this.btn_button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button8.Location = new System.Drawing.Point(176, 144);
+            this.btn_button8.Location = new System.Drawing.Point(176, 240);
             this.btn_button8.Name = "btn_button8";
             this.btn_button8.Size = new System.Drawing.Size(46, 40);
             this.btn_button8.TabIndex = 1;
@@ -77,7 +88,7 @@
             // btn_button9
             // 
             this.btn_button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button9.Location = new System.Drawing.Point(240, 144);
+            this.btn_button9.Location = new System.Drawing.Point(240, 240);
             this.btn_button9.Name = "btn_button9";
             this.btn_button9.Size = new System.Drawing.Size(55, 40);
             this.btn_button9.TabIndex = 2;
@@ -88,7 +99,7 @@
             // btn_button4
             // 
             this.btn_button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button4.Location = new System.Drawing.Point(114, 190);
+            this.btn_button4.Location = new System.Drawing.Point(114, 282);
             this.btn_button4.Name = "btn_button4";
             this.btn_button4.Size = new System.Drawing.Size(47, 42);
             this.btn_button4.TabIndex = 3;
@@ -98,7 +109,7 @@
             // btn_button5
             // 
             this.btn_button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button5.Location = new System.Drawing.Point(176, 190);
+            this.btn_button5.Location = new System.Drawing.Point(176, 285);
             this.btn_button5.Name = "btn_button5";
             this.btn_button5.Size = new System.Drawing.Size(46, 42);
             this.btn_button5.TabIndex = 4;
@@ -108,7 +119,7 @@
             // btn_button6
             // 
             this.btn_button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button6.Location = new System.Drawing.Point(240, 190);
+            this.btn_button6.Location = new System.Drawing.Point(240, 286);
             this.btn_button6.Name = "btn_button6";
             this.btn_button6.Size = new System.Drawing.Size(55, 41);
             this.btn_button6.TabIndex = 5;
@@ -118,7 +129,7 @@
             // btn_button1
             // 
             this.btn_button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button1.Location = new System.Drawing.Point(114, 238);
+            this.btn_button1.Location = new System.Drawing.Point(114, 330);
             this.btn_button1.Name = "btn_button1";
             this.btn_button1.Size = new System.Drawing.Size(47, 44);
             this.btn_button1.TabIndex = 6;
@@ -128,7 +139,7 @@
             // btn_button2
             // 
             this.btn_button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button2.Location = new System.Drawing.Point(176, 240);
+            this.btn_button2.Location = new System.Drawing.Point(176, 333);
             this.btn_button2.Name = "btn_button2";
             this.btn_button2.Size = new System.Drawing.Size(46, 42);
             this.btn_button2.TabIndex = 7;
@@ -138,9 +149,9 @@
             // btn_button3
             // 
             this.btn_button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button3.Location = new System.Drawing.Point(240, 240);
+            this.btn_button3.Location = new System.Drawing.Point(238, 333);
             this.btn_button3.Name = "btn_button3";
-            this.btn_button3.Size = new System.Drawing.Size(55, 42);
+            this.btn_button3.Size = new System.Drawing.Size(53, 42);
             this.btn_button3.TabIndex = 8;
             this.btn_button3.Text = " 3 WXYZ";
             this.btn_button3.UseVisualStyleBackColor = false;
@@ -156,7 +167,7 @@
             "\'",
             ":",
             "; "});
-            this.lb_button7.Location = new System.Drawing.Point(324, 145);
+            this.lb_button7.Location = new System.Drawing.Point(364, 238);
             this.lb_button7.Name = "lb_button7";
             this.lb_button7.Size = new System.Drawing.Size(37, 30);
             this.lb_button7.TabIndex = 9;
@@ -172,7 +183,7 @@
             "A",
             "B",
             "C "});
-            this.listBox1.Location = new System.Drawing.Point(367, 145);
+            this.listBox1.Location = new System.Drawing.Point(407, 236);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(35, 30);
             this.listBox1.TabIndex = 10;
@@ -188,7 +199,7 @@
             "D",
             "E",
             "F"});
-            this.listBox2.Location = new System.Drawing.Point(408, 144);
+            this.listBox2.Location = new System.Drawing.Point(457, 236);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(37, 30);
             this.listBox2.TabIndex = 11;
@@ -204,7 +215,7 @@
             "G ",
             "H",
             "I "});
-            this.listBox3.Location = new System.Drawing.Point(323, 190);
+            this.listBox3.Location = new System.Drawing.Point(367, 274);
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(38, 30);
             this.listBox3.TabIndex = 12;
@@ -220,7 +231,7 @@
             "J",
             "K",
             "L"});
-            this.listBox4.Location = new System.Drawing.Point(371, 191);
+            this.listBox4.Location = new System.Drawing.Point(411, 274);
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(37, 30);
             this.listBox4.TabIndex = 13;
@@ -236,7 +247,7 @@
             "M",
             "N",
             "O"});
-            this.listBox5.Location = new System.Drawing.Point(414, 190);
+            this.listBox5.Location = new System.Drawing.Point(461, 274);
             this.listBox5.Name = "listBox5";
             this.listBox5.Size = new System.Drawing.Size(42, 30);
             this.listBox5.TabIndex = 14;
@@ -254,7 +265,7 @@
             "Q",
             "R",
             "S "});
-            this.listBox6.Location = new System.Drawing.Point(322, 244);
+            this.listBox6.Location = new System.Drawing.Point(367, 310);
             this.listBox6.Name = "listBox6";
             this.listBox6.Size = new System.Drawing.Size(38, 30);
             this.listBox6.TabIndex = 15;
@@ -270,7 +281,7 @@
             "T",
             "U",
             "V"});
-            this.listBox7.Location = new System.Drawing.Point(371, 244);
+            this.listBox7.Location = new System.Drawing.Point(425, 310);
             this.listBox7.Name = "listBox7";
             this.listBox7.Size = new System.Drawing.Size(43, 30);
             this.listBox7.TabIndex = 16;
@@ -288,7 +299,7 @@
             "X",
             "Y",
             "Z "});
-            this.listBox8.Location = new System.Drawing.Point(422, 247);
+            this.listBox8.Location = new System.Drawing.Point(474, 310);
             this.listBox8.Name = "listBox8";
             this.listBox8.Size = new System.Drawing.Size(45, 30);
             this.listBox8.TabIndex = 17;
@@ -296,7 +307,7 @@
             // btn_star
             // 
             this.btn_star.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_star.Location = new System.Drawing.Point(114, 288);
+            this.btn_star.Location = new System.Drawing.Point(114, 380);
             this.btn_star.Name = "btn_star";
             this.btn_star.Size = new System.Drawing.Size(47, 47);
             this.btn_star.TabIndex = 18;
@@ -306,9 +317,9 @@
             // btn_hash
             // 
             this.btn_hash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_hash.Location = new System.Drawing.Point(242, 288);
+            this.btn_hash.Location = new System.Drawing.Point(238, 380);
             this.btn_hash.Name = "btn_hash";
-            this.btn_hash.Size = new System.Drawing.Size(53, 47);
+            this.btn_hash.Size = new System.Drawing.Size(53, 46);
             this.btn_hash.TabIndex = 19;
             this.btn_hash.Text = "    #     0   00";
             this.btn_hash.UseVisualStyleBackColor = false;
@@ -321,7 +332,7 @@
             "*",
             "-",
             "_ "});
-            this.listBox9.Location = new System.Drawing.Point(322, 296);
+            this.listBox9.Location = new System.Drawing.Point(364, 346);
             this.listBox9.Name = "listBox9";
             this.listBox9.Size = new System.Drawing.Size(38, 30);
             this.listBox9.TabIndex = 20;
@@ -333,17 +344,131 @@
             "#",
             "0",
             "00"});
-            this.listBox10.Location = new System.Drawing.Point(371, 296);
+            this.listBox10.Location = new System.Drawing.Point(422, 346);
             this.listBox10.Name = "listBox10";
             this.listBox10.Size = new System.Drawing.Size(41, 30);
             this.listBox10.TabIndex = 21;
+            // 
+            // txt_box1
+            // 
+            this.txt_box1.Location = new System.Drawing.Point(9, 12);
+            this.txt_box1.Multiline = true;
+            this.txt_box1.Name = "txt_box1";
+            this.txt_box1.Size = new System.Drawing.Size(494, 127);
+            this.txt_box1.TabIndex = 22;
+            // 
+            // btn_space
+            // 
+            this.btn_space.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn_space.Location = new System.Drawing.Point(176, 380);
+            this.btn_space.Name = "btn_space";
+            this.btn_space.Size = new System.Drawing.Size(45, 47);
+            this.btn_space.TabIndex = 23;
+            this.btn_space.Text = "  000  [ _ ]";
+            this.btn_space.UseVisualStyleBackColor = false;
+            // 
+            // btn_mode
+            // 
+            this.btn_mode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_mode.Location = new System.Drawing.Point(114, 193);
+            this.btn_mode.Name = "btn_mode";
+            this.btn_mode.Size = new System.Drawing.Size(43, 41);
+            this.btn_mode.TabIndex = 24;
+            this.btn_mode.Text = "Mode";
+            this.btn_mode.UseVisualStyleBackColor = false;
+            // 
+            // btn_next
+            // 
+            this.btn_next.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_next.Location = new System.Drawing.Point(174, 195);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Size = new System.Drawing.Size(47, 38);
+            this.btn_next.TabIndex = 25;
+            this.btn_next.Text = "Next";
+            this.btn_next.UseVisualStyleBackColor = false;
+            // 
+            // btn_previous
+            // 
+            this.btn_previous.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_previous.Location = new System.Drawing.Point(238, 193);
+            this.btn_previous.Name = "btn_previous";
+            this.btn_previous.Size = new System.Drawing.Size(55, 41);
+            this.btn_previous.TabIndex = 26;
+            this.btn_previous.Text = "Previous";
+            this.btn_previous.UseVisualStyleBackColor = false;
+            // 
+            // btn_send_predictive
+            // 
+            this.btn_send_predictive.BackColor = System.Drawing.Color.Yellow;
+            this.btn_send_predictive.Location = new System.Drawing.Point(301, 192);
+            this.btn_send_predictive.Name = "btn_send_predictive";
+            this.btn_send_predictive.Size = new System.Drawing.Size(56, 41);
+            this.btn_send_predictive.TabIndex = 27;
+            this.btn_send_predictive.Text = "Send Predictive";
+            this.btn_send_predictive.UseVisualStyleBackColor = false;
+            // 
+            // btn_blank1
+            // 
+            this.btn_blank1.BackColor = System.Drawing.Color.Yellow;
+            this.btn_blank1.Location = new System.Drawing.Point(301, 242);
+            this.btn_blank1.Name = "btn_blank1";
+            this.btn_blank1.Size = new System.Drawing.Size(52, 40);
+            this.btn_blank1.TabIndex = 28;
+            this.btn_blank1.UseVisualStyleBackColor = false;
+            // 
+            // btn_blank2
+            // 
+            this.btn_blank2.BackColor = System.Drawing.Color.Yellow;
+            this.btn_blank2.Location = new System.Drawing.Point(301, 288);
+            this.btn_blank2.Name = "btn_blank2";
+            this.btn_blank2.Size = new System.Drawing.Size(52, 42);
+            this.btn_blank2.TabIndex = 29;
+            this.btn_blank2.UseVisualStyleBackColor = false;
+            // 
+            // btn_enter
+            // 
+            this.btn_enter.BackColor = System.Drawing.Color.Yellow;
+            this.btn_enter.Location = new System.Drawing.Point(301, 336);
+            this.btn_enter.Name = "btn_enter";
+            this.btn_enter.Size = new System.Drawing.Size(52, 91);
+            this.btn_enter.TabIndex = 30;
+            this.btn_enter.Text = "Enter";
+            this.btn_enter.UseVisualStyleBackColor = false;
+            this.btn_enter.Click += new System.EventHandler(this.btn_enter_Click);
+            // 
+            // txtb_multipress
+            // 
+            this.txtb_multipress.Location = new System.Drawing.Point(112, 166);
+            this.txtb_multipress.Name = "txtb_multipress";
+            this.txtb_multipress.Size = new System.Drawing.Size(181, 20);
+            this.txtb_multipress.TabIndex = 31;
+            // 
+            // btn_multipress
+            // 
+            this.btn_multipress.Location = new System.Drawing.Point(299, 166);
+            this.btn_multipress.Name = "btn_multipress";
+            this.btn_multipress.Size = new System.Drawing.Size(71, 20);
+            this.btn_multipress.TabIndex = 32;
+            this.btn_multipress.Text = "Multi-Press";
+            this.btn_multipress.UseVisualStyleBackColor = true;
             // 
             // MiniKeyboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(515, 388);
+            this.ClientSize = new System.Drawing.Size(585, 439);
+            this.Controls.Add(this.btn_multipress);
+            this.Controls.Add(this.txtb_multipress);
+            this.Controls.Add(this.btn_enter);
+            this.Controls.Add(this.btn_blank2);
+            this.Controls.Add(this.btn_blank1);
+            this.Controls.Add(this.btn_send_predictive);
+            this.Controls.Add(this.btn_previous);
+            this.Controls.Add(this.btn_next);
+            this.Controls.Add(this.btn_mode);
+            this.Controls.Add(this.btn_space);
+            this.Controls.Add(this.txt_box1);
             this.Controls.Add(this.listBox10);
             this.Controls.Add(this.listBox9);
             this.Controls.Add(this.btn_hash);
@@ -371,6 +496,7 @@
             this.Text = "Mini Keyboard";
             this.Load += new System.EventHandler(this.MiniKeyboard_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -398,6 +524,17 @@
         private System.Windows.Forms.Button btn_hash;
         private System.Windows.Forms.ListBox listBox9;
         private System.Windows.Forms.ListBox listBox10;
+        private System.Windows.Forms.TextBox txt_box1;
+        private System.Windows.Forms.Button btn_space;
+        private System.Windows.Forms.Button btn_mode;
+        private System.Windows.Forms.Button btn_next;
+        private System.Windows.Forms.Button btn_previous;
+        private System.Windows.Forms.Button btn_send_predictive;
+        private System.Windows.Forms.Button btn_blank1;
+        private System.Windows.Forms.Button btn_blank2;
+        private System.Windows.Forms.Button btn_enter;
+        private System.Windows.Forms.TextBox txtb_multipress;
+        private System.Windows.Forms.Button btn_multipress;
     }
 }
 
