@@ -66,5 +66,11 @@ namespace P4CAssignment2
         {
 
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            //timer off
+            lettertimer.Enabled = false; 
+        }
     }
 }

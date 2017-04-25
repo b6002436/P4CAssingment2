@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btn_button7 = new System.Windows.Forms.Button();
             this.btn_button8 = new System.Windows.Forms.Button();
             this.btn_button9 = new System.Windows.Forms.Button();
@@ -61,6 +62,7 @@
             this.btn_enter = new System.Windows.Forms.Button();
             this.txtb_multipress = new System.Windows.Forms.TextBox();
             this.btn_multipress = new System.Windows.Forms.Button();
+            this.lettertimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // btn_button7
@@ -366,7 +368,7 @@
             // 
             // txt_box1
             // 
-            this.txt_box1.Location = new System.Drawing.Point(9, 12);
+            this.txt_box1.Location = new System.Drawing.Point(12, 33);
             this.txt_box1.Multiline = true;
             this.txt_box1.Name = "txt_box1";
             this.txt_box1.Size = new System.Drawing.Size(494, 127);
@@ -415,7 +417,7 @@
             // btn_send_predictive
             // 
             this.btn_send_predictive.BackColor = System.Drawing.Color.Yellow;
-            this.btn_send_predictive.Location = new System.Drawing.Point(301, 192);
+            this.btn_send_predictive.Location = new System.Drawing.Point(301, 195);
             this.btn_send_predictive.Name = "btn_send_predictive";
             this.btn_send_predictive.Size = new System.Drawing.Size(56, 41);
             this.btn_send_predictive.TabIndex = 27;
@@ -466,6 +468,10 @@
             this.btn_multipress.TabIndex = 32;
             this.btn_multipress.Text = "Multi-Press";
             this.btn_multipress.UseVisualStyleBackColor = true;
+            // 
+            // lettertimer
+            // 
+            this.lettertimer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // MiniKeyboard
             // 
@@ -550,6 +556,7 @@
         private System.Windows.Forms.Button btn_enter;
         private System.Windows.Forms.TextBox txtb_multipress;
         private System.Windows.Forms.Button btn_multipress;
+        private System.Windows.Forms.Timer lettertimer;
     }
 }
 
