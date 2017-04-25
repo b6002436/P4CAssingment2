@@ -12,6 +12,10 @@ namespace P4CAssignment2
 {
     public partial class MiniKeyboard : Form
     {
+        int letternumber = -1; // global vairiable 
+
+        bool firsttime = true; 
+
         public MiniKeyboard()
         {
             InitializeComponent();
@@ -71,6 +75,13 @@ namespace P4CAssignment2
         {
             //timer off
             lettertimer.Enabled = false; 
+
+            // building the word
+            txtb_multipress.AppendText(lb_global.Items[letternumber].ToString());
+
+
+            firsttime = true; 
+
         }
     }
 }

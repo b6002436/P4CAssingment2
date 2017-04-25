@@ -63,6 +63,7 @@
             this.txtb_multipress = new System.Windows.Forms.TextBox();
             this.btn_multipress = new System.Windows.Forms.Button();
             this.lettertimer = new System.Windows.Forms.Timer(this.components);
+            this.lb_global = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btn_button7
@@ -473,12 +474,21 @@
             // 
             this.lettertimer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // lb_global
+            // 
+            this.lb_global.FormattingEnabled = true;
+            this.lb_global.Location = new System.Drawing.Point(446, 221);
+            this.lb_global.Name = "lb_global";
+            this.lb_global.Size = new System.Drawing.Size(72, 30);
+            this.lb_global.TabIndex = 33;
+            // 
             // MiniKeyboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(585, 439);
+            this.Controls.Add(this.lb_global);
             this.Controls.Add(this.btn_multipress);
             this.Controls.Add(this.txtb_multipress);
             this.Controls.Add(this.btn_enter);
@@ -557,6 +567,7 @@
         private System.Windows.Forms.TextBox txtb_multipress;
         private System.Windows.Forms.Button btn_multipress;
         private System.Windows.Forms.Timer lettertimer;
+        private System.Windows.Forms.ListBox lb_global;
     }
 }
 
