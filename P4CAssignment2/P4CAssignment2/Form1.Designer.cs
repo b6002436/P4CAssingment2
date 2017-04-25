@@ -138,6 +138,7 @@
             this.btn_button1.TabIndex = 6;
             this.btn_button1.Text = "  1  PQRS";
             this.btn_button1.UseVisualStyleBackColor = false;
+            this.btn_button1.Click += new System.EventHandler(this.btn_button1_Click);
             // 
             // btn_button2
             // 

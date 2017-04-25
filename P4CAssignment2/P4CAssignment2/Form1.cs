@@ -85,7 +85,7 @@ namespace P4CAssignment2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btn_enter_Click(object sender, EventArgs e)
@@ -120,10 +120,29 @@ namespace P4CAssignment2
 
             // building the word
             txtb_multipress.AppendText(lb_global.Items[letternumber].ToString());
-
+            letternumber = -1; //Resets the leter number variable
 
             firsttime = true; 
 
+        }
+
+        private void btn_button1_Click(object sender, EventArgs e)
+        {
+            if (firsttime == true)
+            {
+                //Clears the global list box 
+                lb_global.Items.Clear();
+
+                //Adds contents of list box button 1 into the global listbox
+                lb_global.Items.AddRange(lb_button1.Items);
+            }
+
+            // Turns timer off
+            lettertimer.Enabled = false;
+            //Adds one onto the letter number variabe
+            letternumber++;
+            //turns the timer back on
+            lettertimer.Enabled = true; 
         }
     }
 }
