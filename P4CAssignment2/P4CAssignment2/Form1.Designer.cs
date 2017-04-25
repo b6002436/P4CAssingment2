@@ -118,6 +118,7 @@
             this.btn_button5.TabIndex = 4;
             this.btn_button5.Text = "  5  JKL";
             this.btn_button5.UseVisualStyleBackColor = false;
+            this.btn_button5.Click += new System.EventHandler(this.btn_button5_Click);
             // 
             // btn_button6
             // 
