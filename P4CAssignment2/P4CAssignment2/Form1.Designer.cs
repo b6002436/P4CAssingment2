@@ -38,18 +38,18 @@
             this.btn_button2 = new System.Windows.Forms.Button();
             this.btn_button3 = new System.Windows.Forms.Button();
             this.lb_button7 = new System.Windows.Forms.ListBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.listBox4 = new System.Windows.Forms.ListBox();
-            this.listBox5 = new System.Windows.Forms.ListBox();
-            this.listBox6 = new System.Windows.Forms.ListBox();
-            this.listBox7 = new System.Windows.Forms.ListBox();
-            this.listBox8 = new System.Windows.Forms.ListBox();
+            this.lb_button8 = new System.Windows.Forms.ListBox();
+            this.lb_button9 = new System.Windows.Forms.ListBox();
+            this.lb_button4 = new System.Windows.Forms.ListBox();
+            this.lb_button5 = new System.Windows.Forms.ListBox();
+            this.lb_button6 = new System.Windows.Forms.ListBox();
+            this.lb_button1 = new System.Windows.Forms.ListBox();
+            this.lb_button2 = new System.Windows.Forms.ListBox();
+            this.lb_button3 = new System.Windows.Forms.ListBox();
             this.btn_star = new System.Windows.Forms.Button();
             this.btn_hash = new System.Windows.Forms.Button();
-            this.listBox9 = new System.Windows.Forms.ListBox();
-            this.listBox10 = new System.Windows.Forms.ListBox();
+            this.lb_buttonstar = new System.Windows.Forms.ListBox();
+            this.lb_zero = new System.Windows.Forms.ListBox();
             this.txt_box1 = new System.Windows.Forms.TextBox();
             this.btn_space = new System.Windows.Forms.Button();
             this.btn_mode = new System.Windows.Forms.Button();
@@ -167,15 +167,17 @@
             "\'",
             ":",
             "; "});
-            this.lb_button7.Location = new System.Drawing.Point(364, 238);
+            this.lb_button7.Location = new System.Drawing.Point(368, 272);
             this.lb_button7.Name = "lb_button7";
             this.lb_button7.Size = new System.Drawing.Size(37, 30);
             this.lb_button7.TabIndex = 9;
+            this.lb_button7.Visible = false;
+            this.lb_button7.SelectedIndexChanged += new System.EventHandler(this.lb_button7_SelectedIndexChanged);
             // 
-            // listBox1
+            // lb_button8
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
+            this.lb_button8.FormattingEnabled = true;
+            this.lb_button8.Items.AddRange(new object[] {
             "a",
             "b",
             "c",
@@ -183,15 +185,16 @@
             "A",
             "B",
             "C "});
-            this.listBox1.Location = new System.Drawing.Point(407, 236);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(35, 30);
-            this.listBox1.TabIndex = 10;
+            this.lb_button8.Location = new System.Drawing.Point(416, 272);
+            this.lb_button8.Name = "lb_button8";
+            this.lb_button8.Size = new System.Drawing.Size(35, 30);
+            this.lb_button8.TabIndex = 10;
+            this.lb_button8.Visible = false;
             // 
-            // listBox2
+            // lb_button9
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Items.AddRange(new object[] {
+            this.lb_button9.FormattingEnabled = true;
+            this.lb_button9.Items.AddRange(new object[] {
             "d",
             "e",
             "f",
@@ -199,15 +202,16 @@
             "D",
             "E",
             "F"});
-            this.listBox2.Location = new System.Drawing.Point(457, 236);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(37, 30);
-            this.listBox2.TabIndex = 11;
+            this.lb_button9.Location = new System.Drawing.Point(457, 272);
+            this.lb_button9.Name = "lb_button9";
+            this.lb_button9.Size = new System.Drawing.Size(37, 30);
+            this.lb_button9.TabIndex = 11;
+            this.lb_button9.Visible = false;
             // 
-            // listBox3
+            // lb_button4
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.Items.AddRange(new object[] {
+            this.lb_button4.FormattingEnabled = true;
+            this.lb_button4.Items.AddRange(new object[] {
             "g",
             "h",
             "i",
@@ -215,15 +219,16 @@
             "G ",
             "H",
             "I "});
-            this.listBox3.Location = new System.Drawing.Point(367, 274);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(38, 30);
-            this.listBox3.TabIndex = 12;
+            this.lb_button4.Location = new System.Drawing.Point(367, 308);
+            this.lb_button4.Name = "lb_button4";
+            this.lb_button4.Size = new System.Drawing.Size(38, 30);
+            this.lb_button4.TabIndex = 12;
+            this.lb_button4.Visible = false;
             // 
-            // listBox4
+            // lb_button5
             // 
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.Items.AddRange(new object[] {
+            this.lb_button5.FormattingEnabled = true;
+            this.lb_button5.Items.AddRange(new object[] {
             "j",
             "k",
             "l",
@@ -231,15 +236,17 @@
             "J",
             "K",
             "L"});
-            this.listBox4.Location = new System.Drawing.Point(411, 274);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(37, 30);
-            this.listBox4.TabIndex = 13;
+            this.lb_button5.Location = new System.Drawing.Point(411, 308);
+            this.lb_button5.Name = "lb_button5";
+            this.lb_button5.Size = new System.Drawing.Size(37, 30);
+            this.lb_button5.TabIndex = 13;
+            this.lb_button5.Visible = false;
+            this.lb_button5.SelectedIndexChanged += new System.EventHandler(this.listBox4_SelectedIndexChanged);
             // 
-            // listBox5
+            // lb_button6
             // 
-            this.listBox5.FormattingEnabled = true;
-            this.listBox5.Items.AddRange(new object[] {
+            this.lb_button6.FormattingEnabled = true;
+            this.lb_button6.Items.AddRange(new object[] {
             "m",
             "n",
             "o",
@@ -247,15 +254,17 @@
             "M",
             "N",
             "O"});
-            this.listBox5.Location = new System.Drawing.Point(461, 274);
-            this.listBox5.Name = "listBox5";
-            this.listBox5.Size = new System.Drawing.Size(42, 30);
-            this.listBox5.TabIndex = 14;
+            this.lb_button6.Location = new System.Drawing.Point(456, 308);
+            this.lb_button6.Name = "lb_button6";
+            this.lb_button6.Size = new System.Drawing.Size(42, 30);
+            this.lb_button6.TabIndex = 14;
+            this.lb_button6.Visible = false;
+            this.lb_button6.SelectedIndexChanged += new System.EventHandler(this.listBox5_SelectedIndexChanged);
             // 
-            // listBox6
+            // lb_button1
             // 
-            this.listBox6.FormattingEnabled = true;
-            this.listBox6.Items.AddRange(new object[] {
+            this.lb_button1.FormattingEnabled = true;
+            this.lb_button1.Items.AddRange(new object[] {
             "p",
             "q",
             "r",
@@ -265,15 +274,16 @@
             "Q",
             "R",
             "S "});
-            this.listBox6.Location = new System.Drawing.Point(367, 310);
-            this.listBox6.Name = "listBox6";
-            this.listBox6.Size = new System.Drawing.Size(38, 30);
-            this.listBox6.TabIndex = 15;
+            this.lb_button1.Location = new System.Drawing.Point(367, 344);
+            this.lb_button1.Name = "lb_button1";
+            this.lb_button1.Size = new System.Drawing.Size(38, 30);
+            this.lb_button1.TabIndex = 15;
+            this.lb_button1.Visible = false;
             // 
-            // listBox7
+            // lb_button2
             // 
-            this.listBox7.FormattingEnabled = true;
-            this.listBox7.Items.AddRange(new object[] {
+            this.lb_button2.FormattingEnabled = true;
+            this.lb_button2.Items.AddRange(new object[] {
             "t",
             "u",
             "v",
@@ -281,15 +291,17 @@
             "T",
             "U",
             "V"});
-            this.listBox7.Location = new System.Drawing.Point(425, 310);
-            this.listBox7.Name = "listBox7";
-            this.listBox7.Size = new System.Drawing.Size(43, 30);
-            this.listBox7.TabIndex = 16;
+            this.lb_button2.Location = new System.Drawing.Point(411, 344);
+            this.lb_button2.Name = "lb_button2";
+            this.lb_button2.Size = new System.Drawing.Size(43, 30);
+            this.lb_button2.TabIndex = 16;
+            this.lb_button2.Visible = false;
+            this.lb_button2.SelectedIndexChanged += new System.EventHandler(this.lb_button2_SelectedIndexChanged);
             // 
-            // listBox8
+            // lb_button3
             // 
-            this.listBox8.FormattingEnabled = true;
-            this.listBox8.Items.AddRange(new object[] {
+            this.lb_button3.FormattingEnabled = true;
+            this.lb_button3.Items.AddRange(new object[] {
             "w",
             "x",
             "y",
@@ -299,10 +311,11 @@
             "X",
             "Y",
             "Z "});
-            this.listBox8.Location = new System.Drawing.Point(474, 310);
-            this.listBox8.Name = "listBox8";
-            this.listBox8.Size = new System.Drawing.Size(45, 30);
-            this.listBox8.TabIndex = 17;
+            this.lb_button3.Location = new System.Drawing.Point(457, 346);
+            this.lb_button3.Name = "lb_button3";
+            this.lb_button3.Size = new System.Drawing.Size(45, 30);
+            this.lb_button3.TabIndex = 17;
+            this.lb_button3.Visible = false;
             // 
             // btn_star
             // 
@@ -325,29 +338,31 @@
             this.btn_hash.UseVisualStyleBackColor = false;
             this.btn_hash.Click += new System.EventHandler(this.button1_Click);
             // 
-            // listBox9
+            // lb_buttonstar
             // 
-            this.listBox9.FormattingEnabled = true;
-            this.listBox9.Items.AddRange(new object[] {
+            this.lb_buttonstar.FormattingEnabled = true;
+            this.lb_buttonstar.Items.AddRange(new object[] {
             "*",
             "-",
             "_ "});
-            this.listBox9.Location = new System.Drawing.Point(364, 346);
-            this.listBox9.Name = "listBox9";
-            this.listBox9.Size = new System.Drawing.Size(38, 30);
-            this.listBox9.TabIndex = 20;
+            this.lb_buttonstar.Location = new System.Drawing.Point(367, 380);
+            this.lb_buttonstar.Name = "lb_buttonstar";
+            this.lb_buttonstar.Size = new System.Drawing.Size(38, 30);
+            this.lb_buttonstar.TabIndex = 20;
+            this.lb_buttonstar.Visible = false;
             // 
-            // listBox10
+            // lb_zero
             // 
-            this.listBox10.FormattingEnabled = true;
-            this.listBox10.Items.AddRange(new object[] {
+            this.lb_zero.FormattingEnabled = true;
+            this.lb_zero.Items.AddRange(new object[] {
             "#",
             "0",
             "00"});
-            this.listBox10.Location = new System.Drawing.Point(422, 346);
-            this.listBox10.Name = "listBox10";
-            this.listBox10.Size = new System.Drawing.Size(41, 30);
-            this.listBox10.TabIndex = 21;
+            this.lb_zero.Location = new System.Drawing.Point(457, 380);
+            this.lb_zero.Name = "lb_zero";
+            this.lb_zero.Size = new System.Drawing.Size(41, 30);
+            this.lb_zero.TabIndex = 21;
+            this.lb_zero.Visible = false;
             // 
             // txt_box1
             // 
@@ -469,18 +484,18 @@
             this.Controls.Add(this.btn_mode);
             this.Controls.Add(this.btn_space);
             this.Controls.Add(this.txt_box1);
-            this.Controls.Add(this.listBox10);
-            this.Controls.Add(this.listBox9);
+            this.Controls.Add(this.lb_zero);
+            this.Controls.Add(this.lb_buttonstar);
             this.Controls.Add(this.btn_hash);
             this.Controls.Add(this.btn_star);
-            this.Controls.Add(this.listBox8);
-            this.Controls.Add(this.listBox7);
-            this.Controls.Add(this.listBox6);
-            this.Controls.Add(this.listBox5);
-            this.Controls.Add(this.listBox4);
-            this.Controls.Add(this.listBox3);
-            this.Controls.Add(this.listBox2);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lb_button3);
+            this.Controls.Add(this.lb_button2);
+            this.Controls.Add(this.lb_button1);
+            this.Controls.Add(this.lb_button6);
+            this.Controls.Add(this.lb_button5);
+            this.Controls.Add(this.lb_button4);
+            this.Controls.Add(this.lb_button9);
+            this.Controls.Add(this.lb_button8);
             this.Controls.Add(this.lb_button7);
             this.Controls.Add(this.btn_button3);
             this.Controls.Add(this.btn_button2);
@@ -512,18 +527,18 @@
         private System.Windows.Forms.Button btn_button2;
         private System.Windows.Forms.Button btn_button3;
         private System.Windows.Forms.ListBox lb_button7;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.ListBox listBox3;
-        private System.Windows.Forms.ListBox listBox4;
-        private System.Windows.Forms.ListBox listBox5;
-        private System.Windows.Forms.ListBox listBox6;
-        private System.Windows.Forms.ListBox listBox7;
-        private System.Windows.Forms.ListBox listBox8;
+        private System.Windows.Forms.ListBox lb_button8;
+        private System.Windows.Forms.ListBox lb_button9;
+        private System.Windows.Forms.ListBox lb_button4;
+        private System.Windows.Forms.ListBox lb_button5;
+        private System.Windows.Forms.ListBox lb_button6;
+        private System.Windows.Forms.ListBox lb_button1;
+        private System.Windows.Forms.ListBox lb_button2;
+        private System.Windows.Forms.ListBox lb_button3;
         private System.Windows.Forms.Button btn_star;
         private System.Windows.Forms.Button btn_hash;
-        private System.Windows.Forms.ListBox listBox9;
-        private System.Windows.Forms.ListBox listBox10;
+        private System.Windows.Forms.ListBox lb_buttonstar;
+        private System.Windows.Forms.ListBox lb_zero;
         private System.Windows.Forms.TextBox txt_box1;
         private System.Windows.Forms.Button btn_space;
         private System.Windows.Forms.Button btn_mode;
