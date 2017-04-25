@@ -108,6 +108,7 @@
             this.btn_button4.TabIndex = 3;
             this.btn_button4.Text = "  4   GHI";
             this.btn_button4.UseVisualStyleBackColor = false;
+            this.btn_button4.Click += new System.EventHandler(this.btn_button4_Click);
             // 
             // btn_button5
             // 
@@ -469,12 +470,14 @@
             // 
             // btn_multipress
             // 
+            this.btn_multipress.Enabled = false;
             this.btn_multipress.Location = new System.Drawing.Point(299, 166);
             this.btn_multipress.Name = "btn_multipress";
             this.btn_multipress.Size = new System.Drawing.Size(71, 20);
             this.btn_multipress.TabIndex = 32;
             this.btn_multipress.Text = "Multi-Press";
             this.btn_multipress.UseVisualStyleBackColor = true;
+            this.btn_multipress.Click += new System.EventHandler(this.btn_multipress_Click);
             // 
             // lettertimer
             // 

@@ -233,5 +233,29 @@ namespace P4CAssignment2
                 btn_multipress.Text = "Multi-Press"; 
             }
         }
+
+        private void btn_multipress_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_button4_Click(object sender, EventArgs e)
+        {
+            if (firsttime == true)
+            {
+                //Clears the global list box 
+                lb_global.Items.Clear();
+
+                //Adds contents of list box button 4 into the global listbox
+                lb_global.Items.AddRange(lb_button4.Items);
+            }
+
+            // Turns timer off
+            lettertimer.Enabled = false;
+            //Adds one onto the letter number variabe
+            letternumber++;
+            //turns the timer back on
+            lettertimer.Enabled = true;
+        }
     }
 }
