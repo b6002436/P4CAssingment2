@@ -472,6 +472,7 @@
             // 
             // lettertimer
             // 
+            this.lettertimer.Interval = 500;
             this.lettertimer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // lb_global
