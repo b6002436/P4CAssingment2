@@ -348,12 +348,37 @@ namespace P4CAssignment2
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            openFileDialog1.InitialDirectory = "C\\:"; 
+                openFileDialog1.InitialDirectory = "C\\:"; 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
 
             {
                 MessageBox.Show("You opened this file : " + openFileDialog1.FileName);
+           }
+        }
+
+        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (txt_notepad.Text != "") 
+            {
+                // prompts the user to name their file 
+                string fileName = My_Dialogs.InputBox("Save as: ");
+                string Application_path = Directory.GetCurrentDirectory() + "\\";
+                // opens stream, and saves the file as textpad file
+                StreamWriter My_Output_Stream = File.CreateText(Application_path + fileName + ".txt");
+                My_Output_Stream.WriteLine(txt_notepad.Lines);
+               // closes stream
+                My_Output_Stream.Close(); 
             }
+            else
+            {
+                MessageBox.Show("You have to have text in the notepad before saving");
+            }
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+             
         }
     }
 }
