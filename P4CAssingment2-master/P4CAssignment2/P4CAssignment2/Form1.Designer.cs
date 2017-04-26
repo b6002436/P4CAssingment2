@@ -73,16 +73,19 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_button7
             // 
             this.btn_button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button7.Location = new System.Drawing.Point(114, 236);
+            this.btn_button7.Location = new System.Drawing.Point(202, 242);
             this.btn_button7.Name = "btn_button7";
-            this.btn_button7.Size = new System.Drawing.Size(47, 40);
+            this.btn_button7.Size = new System.Drawing.Size(43, 40);
             this.btn_button7.TabIndex = 0;
             this.btn_button7.Text = "   7     ~.\"";
             this.btn_button7.UseVisualStyleBackColor = false;
@@ -91,9 +94,9 @@
             // btn_button8
             // 
             this.btn_button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button8.Location = new System.Drawing.Point(176, 240);
+            this.btn_button8.Location = new System.Drawing.Point(250, 242);
             this.btn_button8.Name = "btn_button8";
-            this.btn_button8.Size = new System.Drawing.Size(46, 40);
+            this.btn_button8.Size = new System.Drawing.Size(41, 40);
             this.btn_button8.TabIndex = 1;
             this.btn_button8.Text = "  8    ABC";
             this.btn_button8.UseVisualStyleBackColor = false;
@@ -102,9 +105,9 @@
             // btn_button9
             // 
             this.btn_button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button9.Location = new System.Drawing.Point(240, 240);
+            this.btn_button9.Location = new System.Drawing.Point(297, 242);
             this.btn_button9.Name = "btn_button9";
-            this.btn_button9.Size = new System.Drawing.Size(55, 40);
+            this.btn_button9.Size = new System.Drawing.Size(44, 40);
             this.btn_button9.TabIndex = 2;
             this.btn_button9.Text = "  9    DEF";
             this.btn_button9.UseVisualStyleBackColor = false;
@@ -113,9 +116,9 @@
             // btn_button4
             // 
             this.btn_button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button4.Location = new System.Drawing.Point(114, 282);
+            this.btn_button4.Location = new System.Drawing.Point(202, 289);
             this.btn_button4.Name = "btn_button4";
-            this.btn_button4.Size = new System.Drawing.Size(47, 42);
+            this.btn_button4.Size = new System.Drawing.Size(43, 38);
             this.btn_button4.TabIndex = 3;
             this.btn_button4.Text = "  4   GHI";
             this.btn_button4.UseVisualStyleBackColor = false;
@@ -124,9 +127,9 @@
             // btn_button5
             // 
             this.btn_button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button5.Location = new System.Drawing.Point(176, 285);
+            this.btn_button5.Location = new System.Drawing.Point(250, 288);
             this.btn_button5.Name = "btn_button5";
-            this.btn_button5.Size = new System.Drawing.Size(46, 42);
+            this.btn_button5.Size = new System.Drawing.Size(41, 39);
             this.btn_button5.TabIndex = 4;
             this.btn_button5.Text = "  5  JKL";
             this.btn_button5.UseVisualStyleBackColor = false;
@@ -135,9 +138,9 @@
             // btn_button6
             // 
             this.btn_button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button6.Location = new System.Drawing.Point(240, 286);
+            this.btn_button6.Location = new System.Drawing.Point(297, 289);
             this.btn_button6.Name = "btn_button6";
-            this.btn_button6.Size = new System.Drawing.Size(55, 41);
+            this.btn_button6.Size = new System.Drawing.Size(44, 38);
             this.btn_button6.TabIndex = 5;
             this.btn_button6.Text = "  6  MNO";
             this.btn_button6.UseVisualStyleBackColor = false;
@@ -146,9 +149,9 @@
             // btn_button1
             // 
             this.btn_button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button1.Location = new System.Drawing.Point(114, 330);
+            this.btn_button1.Location = new System.Drawing.Point(202, 336);
             this.btn_button1.Name = "btn_button1";
-            this.btn_button1.Size = new System.Drawing.Size(47, 44);
+            this.btn_button1.Size = new System.Drawing.Size(43, 38);
             this.btn_button1.TabIndex = 6;
             this.btn_button1.Text = "  1  PQRS";
             this.btn_button1.UseVisualStyleBackColor = false;
@@ -157,9 +160,9 @@
             // btn_button2
             // 
             this.btn_button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button2.Location = new System.Drawing.Point(176, 333);
+            this.btn_button2.Location = new System.Drawing.Point(250, 336);
             this.btn_button2.Name = "btn_button2";
-            this.btn_button2.Size = new System.Drawing.Size(46, 42);
+            this.btn_button2.Size = new System.Drawing.Size(41, 39);
             this.btn_button2.TabIndex = 7;
             this.btn_button2.Text = "  2   TUV";
             this.btn_button2.UseVisualStyleBackColor = false;
@@ -168,9 +171,9 @@
             // btn_button3
             // 
             this.btn_button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_button3.Location = new System.Drawing.Point(238, 333);
+            this.btn_button3.Location = new System.Drawing.Point(297, 336);
             this.btn_button3.Name = "btn_button3";
-            this.btn_button3.Size = new System.Drawing.Size(53, 42);
+            this.btn_button3.Size = new System.Drawing.Size(44, 38);
             this.btn_button3.TabIndex = 8;
             this.btn_button3.Text = " 3 WXYZ";
             this.btn_button3.UseVisualStyleBackColor = false;
@@ -187,12 +190,12 @@
             "\'",
             ":",
             "; "});
-            this.lb_button7.Location = new System.Drawing.Point(368, 272);
+            this.lb_button7.Location = new System.Drawing.Point(457, 272);
             this.lb_button7.Name = "lb_button7";
             this.lb_button7.Size = new System.Drawing.Size(37, 30);
             this.lb_button7.TabIndex = 9;
             this.lb_button7.Visible = false;
-            this.lb_button7.SelectedIndexChanged += new System.EventHandler(this.lb_button7_SelectedIndexChanged);
+           
             // 
             // lb_button8
             // 
@@ -205,7 +208,7 @@
             "A",
             "B",
             "C "});
-            this.lb_button8.Location = new System.Drawing.Point(416, 272);
+            this.lb_button8.Location = new System.Drawing.Point(500, 272);
             this.lb_button8.Name = "lb_button8";
             this.lb_button8.Size = new System.Drawing.Size(35, 30);
             this.lb_button8.TabIndex = 10;
@@ -222,7 +225,7 @@
             "D",
             "E",
             "F"});
-            this.lb_button9.Location = new System.Drawing.Point(457, 272);
+            this.lb_button9.Location = new System.Drawing.Point(548, 272);
             this.lb_button9.Name = "lb_button9";
             this.lb_button9.Size = new System.Drawing.Size(37, 30);
             this.lb_button9.TabIndex = 11;
@@ -239,7 +242,7 @@
             "G ",
             "H",
             "I "});
-            this.lb_button4.Location = new System.Drawing.Point(367, 308);
+            this.lb_button4.Location = new System.Drawing.Point(456, 308);
             this.lb_button4.Name = "lb_button4";
             this.lb_button4.Size = new System.Drawing.Size(38, 30);
             this.lb_button4.TabIndex = 12;
@@ -256,12 +259,12 @@
             "J",
             "K",
             "L"});
-            this.lb_button5.Location = new System.Drawing.Point(411, 308);
+            this.lb_button5.Location = new System.Drawing.Point(500, 308);
             this.lb_button5.Name = "lb_button5";
             this.lb_button5.Size = new System.Drawing.Size(37, 30);
             this.lb_button5.TabIndex = 13;
             this.lb_button5.Visible = false;
-            this.lb_button5.SelectedIndexChanged += new System.EventHandler(this.listBox4_SelectedIndexChanged);
+            
             // 
             // lb_button6
             // 
@@ -274,12 +277,12 @@
             "M",
             "N",
             "O"});
-            this.lb_button6.Location = new System.Drawing.Point(456, 308);
+            this.lb_button6.Location = new System.Drawing.Point(543, 308);
             this.lb_button6.Name = "lb_button6";
             this.lb_button6.Size = new System.Drawing.Size(42, 30);
             this.lb_button6.TabIndex = 14;
             this.lb_button6.Visible = false;
-            this.lb_button6.SelectedIndexChanged += new System.EventHandler(this.listBox5_SelectedIndexChanged);
+            
             // 
             // lb_button1
             // 
@@ -294,7 +297,7 @@
             "Q",
             "R",
             "S "});
-            this.lb_button1.Location = new System.Drawing.Point(367, 344);
+            this.lb_button1.Location = new System.Drawing.Point(456, 345);
             this.lb_button1.Name = "lb_button1";
             this.lb_button1.Size = new System.Drawing.Size(38, 30);
             this.lb_button1.TabIndex = 15;
@@ -311,12 +314,12 @@
             "T",
             "U",
             "V"});
-            this.lb_button2.Location = new System.Drawing.Point(411, 344);
+            this.lb_button2.Location = new System.Drawing.Point(500, 344);
             this.lb_button2.Name = "lb_button2";
             this.lb_button2.Size = new System.Drawing.Size(43, 30);
             this.lb_button2.TabIndex = 16;
             this.lb_button2.Visible = false;
-            this.lb_button2.SelectedIndexChanged += new System.EventHandler(this.lb_button2_SelectedIndexChanged);
+           
             // 
             // lb_button3
             // 
@@ -331,7 +334,7 @@
             "X",
             "Y",
             "Z "});
-            this.lb_button3.Location = new System.Drawing.Point(457, 346);
+            this.lb_button3.Location = new System.Drawing.Point(548, 345);
             this.lb_button3.Name = "lb_button3";
             this.lb_button3.Size = new System.Drawing.Size(45, 30);
             this.lb_button3.TabIndex = 17;
@@ -340,9 +343,9 @@
             // btn_star
             // 
             this.btn_star.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_star.Location = new System.Drawing.Point(114, 380);
+            this.btn_star.Location = new System.Drawing.Point(202, 381);
             this.btn_star.Name = "btn_star";
-            this.btn_star.Size = new System.Drawing.Size(47, 47);
+            this.btn_star.Size = new System.Drawing.Size(42, 46);
             this.btn_star.TabIndex = 18;
             this.btn_star.Text = "* - _ ";
             this.btn_star.UseVisualStyleBackColor = false;
@@ -351,9 +354,9 @@
             // btn_hash
             // 
             this.btn_hash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btn_hash.Location = new System.Drawing.Point(238, 380);
+            this.btn_hash.Location = new System.Drawing.Point(297, 380);
             this.btn_hash.Name = "btn_hash";
-            this.btn_hash.Size = new System.Drawing.Size(53, 46);
+            this.btn_hash.Size = new System.Drawing.Size(44, 47);
             this.btn_hash.TabIndex = 19;
             this.btn_hash.Text = "    #     0   00";
             this.btn_hash.UseVisualStyleBackColor = false;
@@ -366,7 +369,7 @@
             "*",
             "-",
             "_ "});
-            this.lb_buttonstar.Location = new System.Drawing.Point(367, 380);
+            this.lb_buttonstar.Location = new System.Drawing.Point(457, 380);
             this.lb_buttonstar.Name = "lb_buttonstar";
             this.lb_buttonstar.Size = new System.Drawing.Size(38, 30);
             this.lb_buttonstar.TabIndex = 20;
@@ -379,7 +382,7 @@
             "#",
             "0",
             "00"});
-            this.lb_zero.Location = new System.Drawing.Point(457, 380);
+            this.lb_zero.Location = new System.Drawing.Point(548, 380);
             this.lb_zero.Name = "lb_zero";
             this.lb_zero.Size = new System.Drawing.Size(41, 30);
             this.lb_zero.TabIndex = 21;
@@ -388,19 +391,20 @@
             // txt_notepad
             // 
             this.txt_notepad.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_notepad.Location = new System.Drawing.Point(12, 33);
+            this.txt_notepad.Location = new System.Drawing.Point(45, 33);
             this.txt_notepad.Multiline = true;
             this.txt_notepad.Name = "txt_notepad";
             this.txt_notepad.Size = new System.Drawing.Size(494, 127);
             this.txt_notepad.TabIndex = 22;
+            this.txt_notepad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_notepad.TextChanged += new System.EventHandler(this.txt_notepad_TextChanged);
             // 
             // btn_space
             // 
             this.btn_space.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btn_space.Location = new System.Drawing.Point(176, 380);
+            this.btn_space.Location = new System.Drawing.Point(250, 381);
             this.btn_space.Name = "btn_space";
-            this.btn_space.Size = new System.Drawing.Size(45, 47);
+            this.btn_space.Size = new System.Drawing.Size(41, 47);
             this.btn_space.TabIndex = 23;
             this.btn_space.Text = "  000  [ _ ]";
             this.btn_space.UseVisualStyleBackColor = false;
@@ -409,9 +413,9 @@
             // btn_mode
             // 
             this.btn_mode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btn_mode.Location = new System.Drawing.Point(114, 193);
+            this.btn_mode.Location = new System.Drawing.Point(202, 194);
             this.btn_mode.Name = "btn_mode";
-            this.btn_mode.Size = new System.Drawing.Size(43, 41);
+            this.btn_mode.Size = new System.Drawing.Size(43, 42);
             this.btn_mode.TabIndex = 24;
             this.btn_mode.Text = "Mode";
             this.btn_mode.UseVisualStyleBackColor = false;
@@ -420,20 +424,20 @@
             // btn_next
             // 
             this.btn_next.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btn_next.Location = new System.Drawing.Point(174, 195);
+            this.btn_next.Location = new System.Drawing.Point(250, 194);
             this.btn_next.Name = "btn_next";
-            this.btn_next.Size = new System.Drawing.Size(47, 38);
+            this.btn_next.Size = new System.Drawing.Size(41, 42);
             this.btn_next.TabIndex = 25;
             this.btn_next.Text = "Next";
             this.btn_next.UseVisualStyleBackColor = false;
-            this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
+            
             // 
             // btn_previous
             // 
             this.btn_previous.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btn_previous.Location = new System.Drawing.Point(238, 193);
+            this.btn_previous.Location = new System.Drawing.Point(297, 194);
             this.btn_previous.Name = "btn_previous";
-            this.btn_previous.Size = new System.Drawing.Size(55, 41);
+            this.btn_previous.Size = new System.Drawing.Size(44, 42);
             this.btn_previous.TabIndex = 26;
             this.btn_previous.Text = "Previous";
             this.btn_previous.UseVisualStyleBackColor = false;
@@ -441,9 +445,9 @@
             // btn_send_predictive
             // 
             this.btn_send_predictive.BackColor = System.Drawing.Color.Yellow;
-            this.btn_send_predictive.Location = new System.Drawing.Point(301, 195);
+            this.btn_send_predictive.Location = new System.Drawing.Point(347, 194);
             this.btn_send_predictive.Name = "btn_send_predictive";
-            this.btn_send_predictive.Size = new System.Drawing.Size(56, 41);
+            this.btn_send_predictive.Size = new System.Drawing.Size(56, 42);
             this.btn_send_predictive.TabIndex = 27;
             this.btn_send_predictive.Text = "Send Predictive";
             this.btn_send_predictive.UseVisualStyleBackColor = false;
@@ -451,27 +455,27 @@
             // btn_blank1
             // 
             this.btn_blank1.BackColor = System.Drawing.Color.Yellow;
-            this.btn_blank1.Location = new System.Drawing.Point(301, 242);
+            this.btn_blank1.Location = new System.Drawing.Point(347, 242);
             this.btn_blank1.Name = "btn_blank1";
-            this.btn_blank1.Size = new System.Drawing.Size(52, 40);
+            this.btn_blank1.Size = new System.Drawing.Size(56, 40);
             this.btn_blank1.TabIndex = 28;
             this.btn_blank1.UseVisualStyleBackColor = false;
             // 
             // btn_blank2
             // 
             this.btn_blank2.BackColor = System.Drawing.Color.Yellow;
-            this.btn_blank2.Location = new System.Drawing.Point(301, 288);
+            this.btn_blank2.Location = new System.Drawing.Point(347, 288);
             this.btn_blank2.Name = "btn_blank2";
-            this.btn_blank2.Size = new System.Drawing.Size(52, 42);
+            this.btn_blank2.Size = new System.Drawing.Size(56, 42);
             this.btn_blank2.TabIndex = 29;
             this.btn_blank2.UseVisualStyleBackColor = false;
             // 
             // btn_enter
             // 
             this.btn_enter.BackColor = System.Drawing.Color.Yellow;
-            this.btn_enter.Location = new System.Drawing.Point(301, 336);
+            this.btn_enter.Location = new System.Drawing.Point(347, 336);
             this.btn_enter.Name = "btn_enter";
-            this.btn_enter.Size = new System.Drawing.Size(52, 91);
+            this.btn_enter.Size = new System.Drawing.Size(56, 91);
             this.btn_enter.TabIndex = 30;
             this.btn_enter.Text = "Enter";
             this.btn_enter.UseVisualStyleBackColor = false;
@@ -479,22 +483,22 @@
             // 
             // txtb_multipress
             // 
-            this.txtb_multipress.Location = new System.Drawing.Point(112, 166);
+            this.txtb_multipress.Location = new System.Drawing.Point(202, 166);
             this.txtb_multipress.Name = "txtb_multipress";
             this.txtb_multipress.Size = new System.Drawing.Size(181, 20);
             this.txtb_multipress.TabIndex = 31;
-            this.txtb_multipress.TextChanged += new System.EventHandler(this.txtb_multipress_TextChanged);
+          
             // 
             // btn_multipress
             // 
             this.btn_multipress.Enabled = false;
-            this.btn_multipress.Location = new System.Drawing.Point(299, 166);
+            this.btn_multipress.Location = new System.Drawing.Point(389, 166);
             this.btn_multipress.Name = "btn_multipress";
             this.btn_multipress.Size = new System.Drawing.Size(71, 20);
             this.btn_multipress.TabIndex = 32;
             this.btn_multipress.Text = "Multi-Press";
             this.btn_multipress.UseVisualStyleBackColor = true;
-            this.btn_multipress.Click += new System.EventHandler(this.btn_multipress_Click);
+           
             // 
             // lettertimer
             // 
@@ -504,11 +508,12 @@
             // lb_global
             // 
             this.lb_global.FormattingEnabled = true;
-            this.lb_global.Location = new System.Drawing.Point(446, 221);
+            this.lb_global.Location = new System.Drawing.Point(471, 225);
             this.lb_global.Name = "lb_global";
             this.lb_global.Size = new System.Drawing.Size(72, 30);
             this.lb_global.TabIndex = 33;
-            this.lb_global.SelectedIndexChanged += new System.EventHandler(this.lb_global_SelectedIndexChanged);
+            this.lb_global.Visible = false;
+            
             // 
             // menuStrip1
             // 
@@ -524,14 +529,19 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.openToolStripMenuItem,
             this.newToolStripMenuItem,
+            this.toolStripSeparator3,
+            this.openToolStripMenuItem,
+            this.toolStripSeparator4,
             this.saveToolStripMenuItem,
             this.saveAsToolStripMenuItem,
-            this.exitToolStripMenuItem});
+            this.toolStripSeparator2,
+            this.exitToolStripMenuItem,
+            this.toolStripSeparator1});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
+ 
             // 
             // openToolStripMenuItem
             // 
@@ -578,6 +588,26 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(149, 6);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(149, 6);
+            // 
             // MiniKeyboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -623,7 +653,7 @@
             this.Name = "MiniKeyboard";
             this.RightToLeftLayout = true;
             this.Text = "Mini Keyboard";
-            this.Load += new System.EventHandler(this.MiniKeyboard_Load);
+
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -677,7 +707,10 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem configureToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }
 

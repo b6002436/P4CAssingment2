@@ -45,10 +45,6 @@ namespace P4CAssignment2
             lettertimer.Enabled = true; 
         }
 
-        private void MiniKeyboard_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btn_button8_Click(object sender, EventArgs e)
         {
@@ -112,26 +108,6 @@ namespace P4CAssignment2
             
             // Moves the text onto a new line on the notepad textbox
             txt_notepad.AppendText(Environment.NewLine); 
-        }
-
-        private void listBox5_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lb_button7_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox4_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lb_button2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -255,10 +231,6 @@ namespace P4CAssignment2
             }
         }
 
-        private void btn_multipress_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btn_button4_Click(object sender, EventArgs e)
         {
@@ -308,20 +280,9 @@ namespace P4CAssignment2
                 txt_notepad.AppendText(" " + txtb_multipress.Text); 
 
                 // clear the multipress textbox so its clear for the user to use next time 
-                txtb_multipress.Clear(); //
-
+                txtb_multipress.Clear(); //clears multipress textbox
 
             }
-        }
-
-        private void txtb_multipress_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_next_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void txt_notepad_TextChanged(object sender, EventArgs e)
@@ -338,11 +299,6 @@ namespace P4CAssignment2
             lettertimer.Interval = 500;
            // makes timer interval equal the amount they put in the inputbox
             lettertimer.Interval = letterInt; 
-
-        }
-
-        private void lb_global_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
         }
 
