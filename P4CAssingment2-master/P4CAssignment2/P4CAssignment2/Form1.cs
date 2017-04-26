@@ -8,12 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MyDialogs;
+using System.IO;
 
 namespace P4CAssignment2
 {
     public partial class MiniKeyboard : Form
     {
-        int letternumber = -1; // global vairiable 
+       // global vairiables
+        int letternumber = -1; 
 
         bool firsttime = true;
 
@@ -242,7 +244,7 @@ namespace P4CAssignment2
 
         private void btn_mode_Click(object sender, EventArgs e)
         {
-          //Changes mode status
+          //Changes mode status to multipess or prediction 
             if (btn_multipress.Text == "Multi-Press")
             {
                 btn_multipress.Text = "Prediction";
@@ -302,9 +304,11 @@ namespace P4CAssignment2
 
             if (addword == true)
             {
-                txt_notepad.AppendText(" " + txtb_multipress.Text); // 
+               // takes whats in multipress line and puts it in the notepad with a space before each word 
+                txt_notepad.AppendText(" " + txtb_multipress.Text); 
 
-                txtb_multipress.Clear(); 
+                // clear the multipress textbox so its clear for the user to use next time 
+                txtb_multipress.Clear(); //
 
 
             }
@@ -322,16 +326,17 @@ namespace P4CAssignment2
 
         private void txt_notepad_TextChanged(object sender, EventArgs e)
         {
+            // shows the user where the cursor is on the notepad
             txt_notepad.Focus(); // shows the user where the cursor is on the notepad
         }
 
         private void configureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-               //brings up message box asking user to add new delay
+           //brings up message box asking user to add new delay
             int letterInt = Convert.ToInt32(My_Dialogs.InputBox("Please enter the 'Delay Value' you require, 1000 is equal to a 1 second delay. At present the delay value is worth 500.")); 
            // sets the interval to 500
             lettertimer.Interval = 500;
-            // makes timer interval equal the amount they put in the inputbox
+           // makes timer interval equal the amount they put in the inputbox
             lettertimer.Interval = letterInt; 
 
         }
@@ -339,6 +344,16 @@ namespace P4CAssignment2
         private void lb_global_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.InitialDirectory = "C\\:"; 
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+
+            {
+                MessageBox.Show("You opened this file : " + openFileDialog1.FileName);
+            }
         }
     }
 }
