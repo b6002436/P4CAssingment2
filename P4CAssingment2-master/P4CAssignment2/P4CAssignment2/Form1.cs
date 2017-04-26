@@ -380,5 +380,10 @@ namespace P4CAssignment2
 
             Close();
         }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            txt_notepad.Clear();
+        }
     }
 }
