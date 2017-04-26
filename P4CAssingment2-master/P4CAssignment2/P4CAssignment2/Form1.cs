@@ -107,7 +107,9 @@ namespace P4CAssignment2
 
         private void btn_enter_Click(object sender, EventArgs e)
         {
-
+            
+            // Moves the text onto a new line on the notepad textbox
+            txt_notepad.AppendText(Environment.NewLine); 
         }
 
         private void listBox5_SelectedIndexChanged(object sender, EventArgs e)
@@ -300,7 +302,7 @@ namespace P4CAssignment2
 
             if (addword == true)
             {
-                txt_notepad.AppendText(" " + txtb_multipress.Text);
+                txt_notepad.AppendText(" " + txtb_multipress.Text); // 
 
                 txtb_multipress.Clear(); 
 
@@ -309,6 +311,11 @@ namespace P4CAssignment2
         }
 
         private void txtb_multipress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_next_Click(object sender, EventArgs e)
         {
 
         }

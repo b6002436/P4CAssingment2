@@ -422,6 +422,7 @@
             this.btn_next.TabIndex = 25;
             this.btn_next.Text = "Next";
             this.btn_next.UseVisualStyleBackColor = false;
+            this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
             // 
             // btn_previous
             // 
