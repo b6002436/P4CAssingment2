@@ -322,7 +322,7 @@ namespace P4CAssignment2
 
         private void txt_notepad_TextChanged(object sender, EventArgs e)
         {
-            txt_notepad.Focus();
+            txt_notepad.Focus(); // shows the user where the cursor is on the notepad
         }
 
         private void configureToolStripMenuItem_Click(object sender, EventArgs e)
