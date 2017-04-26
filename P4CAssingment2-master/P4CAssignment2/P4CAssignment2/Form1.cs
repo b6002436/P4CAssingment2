@@ -319,5 +319,26 @@ namespace P4CAssignment2
         {
 
         }
+
+        private void txt_notepad_TextChanged(object sender, EventArgs e)
+        {
+            txt_notepad.Focus();
+        }
+
+        private void configureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+               //brings up message box asking user to add new delay
+            int letterInt = Convert.ToInt32(My_Dialogs.InputBox("Please enter the 'Delay Value' you require, 1000 is equal to a 1 second delay. At present the delay value is worth 500.")); 
+           // sets the interval to 500
+            lettertimer.Interval = 500;
+            // makes timer interval equal the amount they put in the inputbox
+            lettertimer.Interval = letterInt; 
+
+        }
+
+        private void lb_global_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -385,11 +385,13 @@
             // 
             // txt_notepad
             // 
+            this.txt_notepad.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_notepad.Location = new System.Drawing.Point(12, 33);
             this.txt_notepad.Multiline = true;
             this.txt_notepad.Name = "txt_notepad";
             this.txt_notepad.Size = new System.Drawing.Size(494, 127);
             this.txt_notepad.TabIndex = 22;
+            this.txt_notepad.TextChanged += new System.EventHandler(this.txt_notepad_TextChanged);
             // 
             // btn_space
             // 
@@ -504,6 +506,7 @@
             this.lb_global.Name = "lb_global";
             this.lb_global.Size = new System.Drawing.Size(72, 30);
             this.lb_global.TabIndex = 33;
+            this.lb_global.SelectedIndexChanged += new System.EventHandler(this.lb_global_SelectedIndexChanged);
             // 
             // menuStrip1
             // 
@@ -563,6 +566,7 @@
             this.configureToolStripMenuItem.Name = "configureToolStripMenuItem";
             this.configureToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.configureToolStripMenuItem.Text = "Configure";
+            this.configureToolStripMenuItem.Click += new System.EventHandler(this.configureToolStripMenuItem_Click);
             // 
             // MiniKeyboard
             // 
